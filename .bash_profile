@@ -16,4 +16,7 @@ PATH=/usr/local/git/bin:$PATH
 
 export PATH=/usr/local/bin:$PATH
 
+alias ll='ls -al'
+
+export CLICOLOR=1
 
