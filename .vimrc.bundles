@@ -28,7 +28,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/ctags.vim'
 " Plugin 'vim-scripts/matchit.zip'
-" Plugin 'vim-scripts/tComment'
+Plugin 'vim-scripts/tComment'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'tpope/vim-ragtag'
 "
 " if filereadable(expand("~/.vimrc.bundles.local"))
 "   source ~/.vimrc.bundles.local
