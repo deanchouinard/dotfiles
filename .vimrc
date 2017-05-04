@@ -201,3 +201,5 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 set path+=**
 set wildmenu
 
+map <C-n> :NERDTreeToggle<CR>
+

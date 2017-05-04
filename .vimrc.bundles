@@ -38,6 +38,7 @@ Plugin 'tpope/vim-ragtag'
 " use the next two, but need to fix hot keys
 " Plugin 'SirVer/ultisnips'
 " Plugin 'honza/vim-snippets'
+Plugin 'scrooloose/nerdtree'
 "
 " if filereadable(expand("~/.vimrc.bundles.local"))
 "   source ~/.vimrc.bundles.local
