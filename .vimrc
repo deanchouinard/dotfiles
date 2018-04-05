@@ -48,10 +48,14 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile Appraisals set filetype=ruby
   autocmd BufRead,BufNewFile *.md set filetype=markdown
 
+  " Turn off folding for vim-markdown
+  let g:vim_markdown_folding_disabled = 1
+
   " Enable spellchecking for Markdown
   autocmd FileType markdown setlocal spell
 
-
+  " Enable spellchecking for HTML
+  autocmd FileType html setlocal spell
 
 
 
@@ -120,6 +124,9 @@ let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 
 " Index ctags from any project, including those outside Rails
 map <Leader>ct :!ctags -R .<CR>
+
+" CtrlP and Ctags
+nnoremap <leader>. :CtrlPTag<cr>
 
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>

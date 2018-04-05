@@ -39,7 +39,13 @@ Plugin 'tpope/vim-ragtag'
 " Plugin 'SirVer/ultisnips'
 " Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdtree'
-"
+" Plugin 'gabrielelana/vim-markdown'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'pangloss/vim-javascript'
+Plugin 'elmcast/elm-vim'
+" Plugin 'majutsushi/tagbar'
+
 " if filereadable(expand("~/.vimrc.bundles.local"))
 "   source ~/.vimrc.bundles.local
 "   endif

@@ -18,6 +18,11 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 alias ll='ls -al'
+alias la='ls -a'
 
 export CLICOLOR=1
 
+
+. $HOME/.asdf/asdf.sh
+
+. $HOME/.asdf/completions/asdf.bash
