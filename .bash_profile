@@ -26,3 +26,6 @@ export CLICOLOR=1
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
+
+export ERL_AFLAGS="-kernel shell_history enabled"
+

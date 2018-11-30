@@ -59,8 +59,8 @@ augroup vimrcEx
 
 
 
-  " Automatically wrap at 80 characters for Markdown
-  autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+  " Automatically wrap at 130 characters for Markdown
+  autocmd BufRead,BufNewFile *.md setlocal textwidth=110
 
   " Automatically wrap at 72 characters and spell check git commit messages
   autocmd FileType gitcommit setlocal textwidth=72
@@ -96,8 +96,9 @@ endif
 " highlight NonText guibg=#060606
 " highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
-" Make it obvious where 80 characters is
-set textwidth=80
+" Make it obvious where 130 characters is
+" set textwidth=80
+set textwidth=110
 set colorcolumn=+1
 
 " Numbers
