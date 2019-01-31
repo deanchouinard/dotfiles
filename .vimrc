@@ -180,7 +180,7 @@ endif
 " nnoremap <silent> <C-t> :CommandT<CR>
 " syntax enable 
 let g:solarized_termtrans = 1
-colorscheme solarized
+" colorscheme solarized
 
 " set number
 " set modeline
@@ -210,4 +210,17 @@ set path+=**
 set wildmenu
 
 map <C-n> :NERDTreeToggle<CR>
+
+" Mappings to move lines
+" http://vim.wikia.com/wiki/Moving_lines_up_or_down
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
